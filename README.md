@@ -1,2 +1,3 @@
-# ATUI
-ATUI - python library for creating UI using markup language
+# atui
+
+`atui` - библиотека для разработки UI на основе HTML-подобной разметки.

@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="atui",
-    version="0.1.0",
+    version="0.1.2",
     packages=find_packages(),  # Это автоматически найдет все пакеты и модули
-    description="A UI development library with HTML-like markup",
+    description="A UI development library with markup lenguage",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Lucifer",
