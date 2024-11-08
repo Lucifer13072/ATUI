@@ -1,5 +1,9 @@
-from atui.window import Window  # Импортируем класс Window
+from atui.parser import Parser
 
-if __name__ == "__main__":
-    window = Window("Мое Окно", 800, 600)  # Создаем окно с заданным заголовком и размерами
-    window.render()  # Отображаем окно
+parser = Parser()
+
+# Указываем путь к файлу .ui
+window = parser.parse_ui_file("inter.ui")
+
+# Создаём и отображаем окно
+window.create()

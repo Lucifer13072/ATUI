@@ -1,0 +1,4 @@
+<window title="Test Window" width="800" height="600">
+    <button text="Click me" position="50,50" size="200,50" onclick="do_something"/>
+    <textField position="50,120" size="200,30"/>
+</window>
