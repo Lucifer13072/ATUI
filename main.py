@@ -1,9 +1,6 @@
-from atui.parser import Parser
+import atui
+from atui.components import Window
 
-parser = Parser()
+window = Window(800, 700, "like")
 
-# Указываем путь к файлу .ui
-window = parser.parse_ui_file("inter.ui")
-
-# Создаём и отображаем окно
-window.create()
+window.render()
